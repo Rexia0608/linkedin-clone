@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: (-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif);
+    /* outline: 1px solid black; */
+}
+nav ul li, .logo, ul, section .first_image, section form, form ul li hr, section .article-title, section .more-btn, .mid-post button, .mid-post h4, section .article-link, section .article-link-img, .logo-footer, section table, footer ul li{
+    display: inline-block;
+    vertical-align: top;
+}
+nav li a, nav li img, form ul li label, form ul li input, .span-title, .article-title ul{
+    display: block;
+}
+ nav ul img{
+    width: 25px;
+    height: 20px;
+ }
+ nav .logo img{
+    width: 90px;
+    height: 25px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+ }
+ nav ul{
+    position: relative;
+    left: 500px;
+ }
+ nav li a, nav li img{
+    line-height: 0.5;
+    font-size: 12px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 400;
+ }
+ nav ul .box{
+    border-right: 1px solid rgba(0, 0, 0, 0.279);
+    border-left: 1px solid rgba(0, 0, 0, 0.279);
+    padding: 0 8px;
+ }
+ nav ul .anch_link{
+    padding-top: 20px;
+ }
+ nav ul .anch_linked{
+    font-size: 18px;
+ }
+ nav ul li button{
+    border: 1px solid blue;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100px;
+ }
+ form{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 600px;
+ }
+ form h1{
+    font-size: 56px;
+    font-weight: 100;
+    line-height: 67px;
+    color: rgb(178, 64, 32);
+    margin-bottom: 20px;
+ }
+ form ul li{
+    list-style: none;
+    margin-bottom: 20px;
+ }
+ form ul li label{
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+ }
+ form ul li input{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+ }
+ .first_image .section_img{
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 120px;
+ }
+ form ul li .forget_anchor{
+   font-weight: 600;
+   text-decoration: none;
+   font-size: 16px;
+ }
+ form ul li button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 400px;
+    border-radius: 14px;
+    border: none;
+ }
+ form ul li hr{
+    display: inline-block;
+    width: 170px;
+    margin-top: 8px;
+ }
+ form ul li span{
+    padding: 8px;
+ }
+ ul li .btn{
+    background-color: #0A66C2;
+ }
+ ul li p{
+    font-size: 12px;
+    width: 350px;
+
+ }
+ section{
+    margin-bottom: 40px;
+ }
+ ul li button img{
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+ }
+ section .article-title{
+    margin-left: 90px;
+    width: 400px;
+    margin-right: 40px;
+    margin-top: 100px;
+ }
+ section .article-title h2, h3, h4, h5{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 100;
+ }
+ section .article-title p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 100;
+    margin-top: 20px;
+ }
+ section .more-btn{
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 100px;
+ }
+ section .more-btn button{
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 8px;
+    border: 0.1px solid black;
+    font-weight: 500;
+    background-color: white;
+ }
+ section .more-btn button a{
+    text-decoration: none;
+    color: black;
+ }
+ section .more-btn .span-title{
+    position: relative;
+    bottom: 25px;
+    font-size: 16px;
+ }
+ .mid-post{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 8px;
+    height: 300px;
+    background-color: #F1ECE5;
+ }
+ .mid-post h4{
+    padding: 90px;
+    font-size: 40px;
+    color: #C77B63;
+    font-weight: 100;
+    width: 290px;
+ }
+ .mid-post button{
+    position: relative;
+    left: 120px;
+    top: 120px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 0.1px solid black;
+ }
+ .mid-post a{
+    text-decoration: none;
+ }
+ section .article-title h6{
+   line-height: 40px;
+   font-weight: 400px;
+   font-size: 40px;
+   width: 500px;
+   color: #B24020;
+ }
+ section .article-title .article-title-p{
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 400px;
+    width: 500px;
+    color: #878786;
+ }
+ .section-title{
+    height: 600px;
+    background-color: #F3F2F0;
+    padding-top: 150px;
+    margin-top: 80px;
+ }
+ section .more-btn img{
+    position: relative;
+    bottom: 100px;
+    width: 450px;
+    height: 400px;
+    left: 120px;
+ }
+ section .more-btn .next-arrow a{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 100%;
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    text-decoration: none;
+ }
+ .article-title h5{
+   font-size: 48px;
+   line-height: 60px;
+   font-weight: 100px;
+   margin-bottom: 30px;
+ }
+ .article-title button{
+   padding: 12px 15px 12px 15px;
+   border-radius: 30px;
+   font-size: 16px;
+   border: 0.1px solid #878786;
+ }
+ .article-title select{
+   padding: 12px 18px 12px 18px;
+   font-size: 20px;
+ }
+ main .secsub{
+   margin-bottom: 200px;
+}
+section .article-link{
+   width: 500px;
+   padding: 190px 120px 190px 20px;
+   background-color: #F3F2F0;
+}
+section .article-link h6{
+   font-size: 40px;
+}
+section .article-link h5{
+   font-size: 40px;
+   margin-left: 50px;
+   font-weight: 100;
+}
+section .article-link h6{
+   margin-left: 50px;
+   color: #B24020;
+   font-weight: 100;
+}
+section .article-link ul{
+   margin-left: 25px;
+   list-style: none;
+   padding: 20px;
+}
+section .article-link ul li{
+   margin: 10px;
+   padding: 18px 150px 18px 8px;
+   background-color: #E1DAD0;
+}
+section .article-link ul li a{
+   color: #4F4C49;
+   text-decoration: none;
+   font-size: 20px;
+}
+section .article-link-img img{
+   position: absolute;
+   left: 700px;
+   width: 900px;
+   height: 900px;
+}
+section .article-title .section-couch{
+   margin-left: 50px;
+   margin-top: 50px;
+}
+section .article-title .section-couch img{
+   width: 300px;
+}
+.foot-image{
+   margin-top: 10px;
+}
+section .foot-image img{
+   background-size: cover;
+   height: 700px;
+}
+section .foot-image h6{
+   position: relative;
+   top: 200px;
+   margin-left: 90px;
+   font-size: 46px;
+   width: 1000px;
+   font-weight: 100;
+}
+section .foot-image button{
+   position: relative;
+   top: 220px;
+   margin-left: 90px;
+   padding: 15px 20px 15px 20px;
+   border-radius: 30px;
+   border: none;
+   background-color: #004182;
+   color: white;
+   font-weight: 500;
+   font-size: 16px;
+}
+section .logo-footer{
+   margin-left: 90px;
+}
+section .logo-footer img{
+   width: 90px;
+   margin-right: 380px;
+}
+main .sub{
+   background-color: #F3F2F0;
+   padding: 20px;
+}
+section table tr th, section table tr td{
+   padding-right: 70px;
+   padding-bottom: 8px;
+   font-size: 14px;
+   text-align: start;
+   color: #878786;
+}
+footer{
+   margin-left: 90px;
+}
+footer ul li{
+   font-size: 12px;
+   margin-left: 18px;
+}
+footer ul li a{
+   text-decoration: none;
+   color:#878786;
+}
+footer ul li select{
+   border: none;
+}
+footer ul a img{
+   width: 70px;
+}
